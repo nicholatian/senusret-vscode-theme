@@ -1,0 +1,40 @@
+{
+	"name": "senusret",
+	"displayName": "Senusret",
+	"description": "A Pharaonic syntax theme derived from Seti.",
+	"version": "0.0.0",
+	"publisher": "nicholatian",
+	"license": "BSD-2-Clause",
+	"repository": {
+		"type": "git",
+		"url": "https://github.com/nicholatian/senusret-vscode-theme"
+	},
+	"keywords": [
+		"Theme",
+		"Dark Theme",
+		"Senusret",
+		"Night Theme",
+		"Pastel",
+		"Contrast",
+		"Accessible Theme"
+	],
+	"galleryBanner": {
+		"color": "#151515",
+		"theme": "dark"
+	},
+	"engines": {
+		"vscode": "^1.17.0"
+	},
+	"categories": [
+		"Themes"
+	],
+	"icon": "theme.jpg",
+	"contributes": {
+		"themes": [ {
+				"label": "Senusret",
+				"uiTheme": "vs-dark",
+				"path": "./themes/senusret-color-theme.json"
+			}
+		]
+	}
+}
