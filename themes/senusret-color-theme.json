@@ -254,7 +254,12 @@
 				"keyword.other.definition.ini",
 				"support.type.property-name",
 				"support.function.builtin.python",
-				"meta.function-call.python"
+				"meta.function-call.python",
+				"support.function.warning.makefile",
+				"support.function.call.makefile",
+				"support.function.error.makefile",
+				"support.function.strip.makefile",
+				"support.function.patsubst.makefile"
 			],
 			"settings": {
 				"foreground": "#90C255"
@@ -300,7 +305,8 @@
 				"heading.5.markdown",
 				"heading.6.markdown",
 				"punctuation.section.embedded.begin.php",
-				"punctuation.section.embedded.end.php"
+				"punctuation.section.embedded.end.php",
+				"meta.scope.conditional.makefile"
 			],
 			"settings": {
 				"foreground": "#3566B5"
@@ -325,7 +331,9 @@
 				"constant.character.math.tex",
 				"entity.name.section.group-title.ini",
 				"string.other.link.title.markdown",
-				"string.other.link.description.markdown"
+				"string.other.link.description.markdown",
+				"support.function.target.PHONY.makefile",
+				"support.function.target.SUFFIXES.makefile"
 			],
 			"settings": {
 				"foreground": "#42996D"
@@ -347,7 +355,8 @@
 				"punctuation.definition.string.begin.tex",
 				"punctuation.definition.entity.ini",
 				"punctuation.definition.string.begin.markdown",
-				"punctuation.definition.string.end.markdown"
+				"punctuation.definition.string.end.markdown",
+				"entity.name.function.target.makefile"
 			],
 			"settings": {
 				"foreground": "#5FBA8C"
@@ -370,7 +379,9 @@
 				"markup.heading.setext.2.markdown",
 				"meta.image.inline.markdown",
 				"comment.block.documentation.phpdoc.php",
-				"punctuation.definition.variable.php"
+				"punctuation.definition.variable.php",
+				"variable.other.makefile",
+				"constant.other.placeholder.makefile"
 			],
 			"settings": {
 				"foreground": "#8BA2B5"
@@ -378,7 +389,11 @@
 		}, {
 			"name": "white #C7C7C7",
 			"scope": [
-				"punctuation.definition.directive"
+				"punctuation.definition.directive",
+				"meta.scope.function-call.makefile",
+				"meta.scope.condition.makefile",
+				"meta.scope.target.makefile",
+				"punctuation.separator.key-value.makefile"
 			],
 			"settings": {
 				"foreground": "#C7C7C7"
