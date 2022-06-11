@@ -433,7 +433,7 @@
 		}, {
 			"name": "orange #C96F32",
 			"scope": [
-				"rainbow2"
+				"keyword.rainbow2"
 			],
 			"settings": {
 				"foreground": "#C96F32"
@@ -441,7 +441,7 @@
 		}, {
 			"name": "gold #C9AB32",
 			"scope": [
-				"rainbow3"
+				"entity.name.function.rainbow3"
 			],
 			"settings": {
 				"foreground": "#C9AB32"
@@ -449,7 +449,7 @@
 		}, {
 			"name": "puse #ABC932",
 			"scope": [
-				"rainbow4"
+				"comment.rainbow4"
 			],
 			"settings": {
 				"foreground": "#ABC932"
@@ -457,7 +457,7 @@
 		}, {
 			"name": "green #32C932",
 			"scope": [
-				"rainbow5"
+				"string.rainbow5"
 			],
 			"settings": {
 				"foreground": "#32C932"
@@ -465,7 +465,7 @@
 		}, {
 			"name": "teal #32C9AB",
 			"scope": [
-				"rainbow6"
+				"variable.parameter.rainbow6"
 			],
 			"settings": {
 				"foreground": "#32C9AB"
@@ -473,7 +473,7 @@
 		}, {
 			"name": "cerulean #326FC9",
 			"scope": [
-				"rainbow7"
+				"constant.numeric.rainbow7"
 			],
 			"settings": {
 				"foreground": "#326FC9"
@@ -481,7 +481,7 @@
 		}, {
 			"name": "blue #3232C9",
 			"scope": [
-				"rainbow8"
+				"entity.name.type.rainbow8"
 			],
 			"settings": {
 				"foreground": "#3232C9"
@@ -489,7 +489,7 @@
 		}, {
 			"name": "indigo #6F32C9",
 			"scope": [
-				"rainbow9"
+				"markup.bold.rainbow9"
 			],
 			"settings": {
 				"foreground": "#6F32C9"
@@ -497,7 +497,7 @@
 		}, {
 			"name": "magenta #C932AB",
 			"scope": [
-				"rainbow10"
+				"invalid.rainbow10"
 			],
 			"settings": {
 				"foreground": "#C932AB"
