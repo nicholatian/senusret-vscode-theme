@@ -1,7 +1,7 @@
 {
-	"name": "Night Owl",
+	"name": "Senusret",
 	"type": "dark",
-	"semanticHighlighting": false,
+	"semanticHighlighting": true,
 	"colors": {
 		"contrastBorder": "#121212",
 		"focusBorder": "#121212",
