@@ -195,8 +195,10 @@
 			"scope": [
 				"string.quoted.double",
 				"string.quoted.single",
+				"string.quoted",
 				"string.quoted.other.lt-gt.include",
-				"support.type.property-name.json"
+				"support.type.property-name.json",
+				"string.char.arm"
 			],
 			"settings": {
 				"foreground": "#B03E38"
@@ -269,7 +271,8 @@
 			"scope": [
 				"entity.name.function.definition",
 				"punctuation.definition.quote.begin.markdown",
-				"markup.quote.markdown"
+				"markup.quote.markdown",
+				"routine.arm"
 			],
 			"settings": {
 				"foreground": "#56914E"
@@ -306,7 +309,10 @@
 				"heading.6.markdown",
 				"punctuation.section.embedded.begin.php",
 				"punctuation.section.embedded.end.php",
-				"meta.scope.conditional.makefile"
+				"meta.scope.conditional.makefile",
+				"support.function.mnemonic.arithmetic.arm",
+				"support.function.mnemonic.memory.arm",
+				"support.function.mnemonic.multiple.arm"
 			],
 			"settings": {
 				"foreground": "#3566B5"
@@ -333,7 +339,11 @@
 				"string.other.link.title.markdown",
 				"string.other.link.description.markdown",
 				"support.function.target.PHONY.makefile",
-				"support.function.target.SUFFIXES.makefile"
+				"support.function.target.SUFFIXES.makefile",
+				"storage.register.arm",
+				"keyword.control.cpu.arm",
+				"keyword.control.define.arm",
+				"storage.memaddress.arm"
 			],
 			"settings": {
 				"foreground": "#42996D"
@@ -356,7 +366,9 @@
 				"punctuation.definition.entity.ini",
 				"punctuation.definition.string.begin.markdown",
 				"punctuation.definition.string.end.markdown",
-				"entity.name.function.target.makefile"
+				"entity.name.function.target.makefile",
+				"keyword.control.directive.arm",
+				"storage.stack.arm"
 			],
 			"settings": {
 				"foreground": "#5FBA8C"
@@ -406,7 +418,8 @@
 				"keyword.operator",
 				"storage.modifier.array.bracket.square",
 				"meta.brace.round",
-				"meta.symbol"
+				"meta.symbol",
+				"keyword.control.evaluation"
 			],
 			"settings": {
 				"foreground": "#9E9E9E"
