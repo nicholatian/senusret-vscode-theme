@@ -193,12 +193,8 @@
 	"tokenColors": [ {
 			"name": "red #B03E38",
 			"scope": [
-				"string.quoted.double",
-				"string.quoted.single",
-				"string.quoted",
-				"string.quoted.other.lt-gt.include",
-				"support.type.property-name.json",
-				"string.char.arm"
+				"string",
+				"support.type.property-name.json"
 			],
 			"settings": {
 				"foreground": "#B03E38"
@@ -261,7 +257,8 @@
 				"support.function.call.makefile",
 				"support.function.error.makefile",
 				"support.function.strip.makefile",
-				"support.function.patsubst.makefile"
+				"support.function.patsubst.makefile",
+				"routine.arm"
 			],
 			"settings": {
 				"foreground": "#90C255"
@@ -271,8 +268,7 @@
 			"scope": [
 				"entity.name.function.definition",
 				"punctuation.definition.quote.begin.markdown",
-				"markup.quote.markdown",
-				"routine.arm"
+				"markup.quote.markdown"
 			],
 			"settings": {
 				"foreground": "#56914E"
