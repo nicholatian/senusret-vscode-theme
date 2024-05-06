@@ -296,6 +296,7 @@
 				"keyword.other.var",
 				"keyword.other.new",
 				"keyword.other.namespace",
+				"keyword.other.typedef",
 				"entity.name.tag",
 				"heading.1.markdown",
 				"heading.2.markdown",
@@ -308,7 +309,8 @@
 				"meta.scope.conditional.makefile",
 				"support.function.mnemonic.arithmetic.arm",
 				"support.function.mnemonic.memory.arm",
-				"support.function.mnemonic.multiple.arm"
+				"support.function.mnemonic.multiple.arm",
+				"keyword.operator.sizeof"
 			],
 			"settings": {
 				"foreground": "#3566B5"
@@ -339,7 +341,8 @@
 				"storage.register.arm",
 				"keyword.control.cpu.arm",
 				"keyword.control.define.arm",
-				"storage.memaddress.arm"
+				"storage.memaddress.arm",
+				"storage.modifier"
 			],
 			"settings": {
 				"foreground": "#42996D"
@@ -351,7 +354,6 @@
 				"entity.name.type.struct",
 				"storage.modifier.const",
 				"entity.name.type",
-				"storage.modifier",
 				"storage.type",
 				"entity.name.namespace",
 				"keyword.type",
