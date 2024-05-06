@@ -252,7 +252,6 @@
 				"keyword.other.definition.ini",
 				"support.type.property-name",
 				"support.function.builtin.python",
-				"meta.function-call.python",
 				"support.function.warning.makefile",
 				"support.function.call.makefile",
 				"support.function.error.makefile",
@@ -323,7 +322,8 @@
 				"keyword.preprocessor.region",
 				"keyword.preprocessor.endregion",
 				"punctuation.definition.heading.markdown",
-				"punctuation.definition.list.begin.markdown"
+				"punctuation.definition.list.begin.markdown",
+				"meta.preprocessor"
 			],
 			"settings": {
 				"foreground": "#518DED"
