@@ -182,10 +182,10 @@
 		"textCodeBlock.background": "#101010",
 		"debugToolBar.background": "#101010",
 		"walkThrough.embeddedEditorBackground": "#101010",
-		"gitDecoration.modifiedResourceForeground": "#5090F0C0",
+		"gitDecoration.modifiedResourceForeground": "#F0B858C0",
 		"gitDecoration.deletedResourceForeground": "#D85850C0",
-		"gitDecoration.untrackedResourceForeground": "#70C8A8C0",
-		"gitDecoration.ignoredResourceForeground": "#A8B8D0C0",
+		"gitDecoration.untrackedResourceForeground": "#90C060C0",
+		"gitDecoration.ignoredResourceForeground": "#505050C0",
 		"gitDecoration.conflictingResourceForeground": "#D85088C0"
 	},
 	"tokenColors": [ {
