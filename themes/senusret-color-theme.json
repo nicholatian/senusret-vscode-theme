@@ -236,6 +236,16 @@
 		}, {
 			"name": "green #589050",
 			"scope": [
+			],
+			"settings": {
+				"foreground": "#589050"
+			}
+		}, {
+			"name": "green2 #90C060",
+			"scope": [
+				"entity.name.function.definition",
+				"punctuation.definition.quote.begin.markdown",
+				"markup.quote.markdown",
 				"entity.name.function",
 				"support.function.general",
 				"support.function.section.latex",
@@ -249,16 +259,6 @@
 				"support.function.strip.makefile",
 				"support.function.patsubst.makefile",
 				"routine.arm"
-			],
-			"settings": {
-				"foreground": "#589050"
-			}
-		}, {
-			"name": "green2 #90C060",
-			"scope": [
-				"entity.name.function.definition",
-				"punctuation.definition.quote.begin.markdown",
-				"markup.quote.markdown"
 			],
 			"settings": {
 				"foreground": "#90C060"
