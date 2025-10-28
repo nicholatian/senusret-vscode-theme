@@ -278,6 +278,7 @@
 				"keyword.operator.cast.static_cast",
 				"keyword.operator.cast.reinterpret_cast",
 				"storage.modifier.specifier.functional.pre-parameters.friend",
+				"keyword",
 				"keyword.other.await",
 				"keyword.other.class",
 				"keyword.other.struct",
