@@ -1,0 +1,210 @@
+@charset "UTF-8";
+:root,
+:host {
+	/* standard eight colours */
+	/* normal variants */
+	--nano-col-black-normal: #101010;
+	--nano-col-red-normal: #B04038;
+	--nano-col-green-normal: #589050;
+	--nano-col-yellow-normal: #D89830;
+	--nano-col-blue-normal: #3868B8;
+	--nano-col-magenta-normal: #B03868;
+	--nano-col-cyan-normal: #409880;
+	--nano-col-white-normal: #A0A0A0;
+	/* bright variants */
+	--nano-col-black-bright: #505050;
+	--nano-col-red-bright: #D85850;
+	--nano-col-green-bright: #90C060;
+	--nano-col-yellow-bright: #F0B858;
+	--nano-col-blue-bright: #5090F0;
+	--nano-col-magenta-bright: #D85088;
+	--nano-col-cyan-bright: #70C8A8;
+	--nano-col-white-bright: #D0D0D0;
+	/* "extra" colours */
+	/* normal variants */
+	--nano-col-steel-normal: #88A0B8;
+	--nano-col-brown-normal: #805030;
+	/* bright variants */
+	--nano-col-steel-bright: #A8B8D0;
+	--nano-col-brown-bright: #A86848;
+}
+
+.nano-fg-black-normal {
+	color: var(--nano-col-black-normal);
+}
+
+.nano-fg-red-normal {
+	color: var(--nano-col-red-normal);
+}
+
+.nano-fg-green-normal {
+	color: var(--nano-col-green-normal);
+}
+
+.nano-fg-yellow-normal {
+	color: var(--nano-col-yellow-normal);
+}
+
+.nano-fg-blue-normal {
+	color: var(--nano-col-blue-normal);
+}
+
+.nano-fg-magenta-normal {
+	color: var(--nano-col-magenta-normal);
+}
+
+.nano-fg-cyan-normal {
+	color: var(--nano-col-cyan-normal);
+}
+
+.nano-fg-white-normal {
+	color: var(--nano-col-white-normal);
+}
+
+.nano-fg-steel-normal {
+	color: var(--nano-col-steel-normal);
+}
+
+.nano-fg-brown-normal {
+	color: var(--nano-col-brown-normal);
+}
+
+.nano-fg-black-bright {
+	color: var(--nano-col-black-bright);
+}
+
+.nano-fg-red-bright {
+	color: var(--nano-col-red-bright);
+}
+
+.nano-fg-green-bright {
+	color: var(--nano-col-green-bright);
+}
+
+.nano-fg-yellow-bright {
+	color: var(--nano-col-yellow-bright);
+}
+
+.nano-fg-blue-bright {
+	color: var(--nano-col-blue-bright);
+}
+
+.nano-fg-magenta-bright {
+	color: var(--nano-col-magenta-bright);
+}
+
+.nano-fg-cyan-bright {
+	color: var(--nano-col-cyan-bright);
+}
+
+.nano-fg-white-bright {
+	color: var(--nano-col-white-bright);
+}
+
+.nano-fg-steel-bright {
+	color: var(--nano-col-steel-bright);
+}
+
+.nano-fg-brown-bright {
+	color: var(--nano-col-brown-bright);
+}
+
+.nano-bg-black-normal {
+	background-color: var(--nano-col-black-normal);
+	color: var(--nano-col-white-bright);
+}
+
+.nano-bg-red-normal {
+	background-color: var(--nano-col-red-normal);
+	color: var(--nano-col-white-bright);
+}
+
+.nano-bg-green-normal {
+	background-color: var(--nano-col-green-normal);
+	color: var(--nano-col-white-bright);
+}
+
+.nano-bg-yellow-normal {
+	background-color: var(--nano-col-yellow-normal);
+	color: var(--nano-col-white-bright);
+}
+
+.nano-bg-blue-normal {
+	background-color: var(--nano-col-blue-normal);
+	color: var(--nano-col-white-bright);
+}
+
+.nano-bg-magenta-normal {
+	background-color: var(--nano-col-magenta-normal);
+	color: var(--nano-col-white-bright);
+}
+
+.nano-bg-cyan-normal {
+	background-color: var(--nano-col-cyan-normal);
+	color: var(--nano-col-white-bright);
+}
+
+.nano-bg-white-normal {
+	background-color: var(--nano-col-white-normal);
+	color: var(--nano-col-white-bright);
+}
+
+.nano-bg-steel-normal {
+	background-color: var(--nano-col-steel-normal);
+	color: var(--nano-col-white-bright);
+}
+
+.nano-bg-brown-normal {
+	background-color: var(--nano-col-brown-normal);
+	color: var(--nano-col-white-bright);
+}
+
+.nano-bg-black-bright {
+	background-color: var(--nano-col-black-bright);
+	color: var(--nano-col-black-normal);
+}
+
+.nano-bg-red-bright {
+	background-color: var(--nano-col-red-bright);
+	color: var(--nano-col-black-normal);
+}
+
+.nano-bg-green-bright {
+	background-color: var(--nano-col-green-bright);
+	color: var(--nano-col-black-normal);
+}
+
+.nano-bg-yellow-bright {
+	background-color: var(--nano-col-yellow-bright);
+	color: var(--nano-col-black-normal);
+}
+
+.nano-bg-blue-bright {
+	background-color: var(--nano-col-blue-bright);
+	color: var(--nano-col-black-normal);
+}
+
+.nano-bg-magenta-bright {
+	background-color: var(--nano-col-magenta-bright);
+	color: var(--nano-col-black-normal);
+}
+
+.nano-bg-cyan-bright {
+	background-color: var(--nano-col-cyan-bright);
+	color: var(--nano-col-black-normal);
+}
+
+.nano-bg-white-bright {
+	background-color: var(--nano-col-white-bright);
+	color: var(--nano-col-black-normal);
+}
+
+.nano-bg-steel-bright {
+	background-color: var(--nano-col-steel-bright);
+	color: var(--nano-col-black-normal);
+}
+
+.nano-bg-brown-bright {
+	background-color: var(--nano-col-brown-bright);
+	color: var(--nano-col-black-normal);
+}
